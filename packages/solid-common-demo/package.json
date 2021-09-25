@@ -6,9 +6,7 @@
     "access": "public"
   },
   "files": [
-    "./src/index.tsx",
-    "./src/components/Button.tsx",
-    "dist"
+    "src"
   ],
   "main": "./src/index.tsx",
   "scripts": {
