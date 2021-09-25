@@ -1,5 +1,7 @@
 import { createSignal } from "solid-js";
 
+import { Button } from "@codiechanel/solid-common-demo";
+
 export default function Home() {
   const [count, setCount] = createSignal(0);
 
@@ -9,6 +11,7 @@ export default function Home() {
       <section class="bg-gray-100 text-gray-700 min-h-screen flex">
         <div class="w-80 max-w-md bg-primary-1">
           <div class="m-8">
+            <Button />
             <p>Home</p>
           </div>
         </div>
