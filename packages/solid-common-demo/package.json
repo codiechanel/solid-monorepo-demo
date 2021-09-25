@@ -1,10 +1,15 @@
 {
   "name": "@codiechanel/solid-common-demo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "./src/index.tsx",
+    "./src/components/Button.tsx",
+    "dist"
+  ],
   "main": "./src/index.tsx",
   "scripts": {
     "start": "vite",
